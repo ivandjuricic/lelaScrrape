@@ -14,7 +14,7 @@ class NekretnineScraper(Thread):
         self.should_skip = should_skip
         self.timeout = timeout
         self.base_url = 'https://www.nekretnine.rs/stambeni-objekti/stanovi/'
-        self.other_params = 'jednosoban-stan/izdavanje-prodaja/izdavanje/grad/beograd//cena/100_250/lista/po_stranici/20/?search%5Bcategory%5D%5B0%5D=12&search%5Bcategory%5D%5B1%5D=9'
+        self.other_params = 'jednosoban-stan/izdavanje-prodaja/izdavanje/grad/beograd/cena/100_250/lista/po_stranici/20/?search%5Bcategory%5D%5B0%5D=12&search%5Bcategory%5D%5B1%5D=9'
         self.client = client
         print(self.full_url)
 
